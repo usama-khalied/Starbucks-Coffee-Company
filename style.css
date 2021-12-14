@@ -294,7 +294,7 @@ height: auto;
     align-items: center;
 }
 .container-4 .row-chill .col-chill-1 {
-    width: 50%;
+    width: 45%;
 }
 .container-4 .row-chill .col-chill-1 img {
     width: 100%;
@@ -351,14 +351,14 @@ height: auto;
     justify-content: center;
     align-items: center;
     margin: 0 0 4rem;
-    background-color: #D50032;
+    background-color: #1D3932;
 }
-.testimonials .row-chill {
+.testimonials .row-tes {
     display: flex;
 
     align-items: center;
 }
-.testimonials .row-chill .col-chill {
+.testimonials .row-tes .col-tes {
     width: 50%;
     padding: 4rem 8rem;
     display: flex;
@@ -366,19 +366,19 @@ height: auto;
     flex-direction: column;
     align-items: center;
 }
-.testimonials .row-chill .col-chill-1 {
+.testimonials .row-tes .col-tes-1 {
     width: 50%;
 }
-.testimonials .row-chill .col-chill-1 img {
+.testimonials .row-tes .col-tes-1 img {
     width: 100%;
 }
-.testimonials .row-chill .col-chill h1 {
-    font-size: 5rem;
+.testimonials .row-tes .col-tes h1 {
+    font-size: 3rem;
     letter-spacing: 2px;
     text-align: center;
     color: white;
 }
-.testimonials .row-chill .col-chill p {
+.testimonials .row-tes .col-tes p {
     margin: 1rem 0;
     line-height: 1.6;
     font-size: 2.2rem;
@@ -386,7 +386,7 @@ height: auto;
     color: white;
 
 }
-.testimonials .row-chill .col-chill a{
+.testimonials .row-tes .col-tes a{
     margin: 1.4rem auto;
     line-height: 1.6;
     font-size: 1.4rem;
@@ -399,17 +399,17 @@ height: auto;
     letter-spacing: 2px;
     transition: .2s all;
 }
-.testimonials.row-chill .col-chill a:hover{
+.testimonials.row-tes .col-tes a:hover{
  background-color:rgb(255,0,0, 0.2);
 }
 @media (max-width:820px){
-    .testimonials  .row-chill {
+    .testimonials  .row-tes {
 flex-direction: column;
     }
-    .testimonials .row-chill .col-chill {
+    .testimonials .row-tes .col-tes {
         width: 90%;
     }
-    .testimonials .row-chill .col-chill-1 {
+    .testimonials .row-tes .col-tes-1 {
         width: 90%;
     }
     .testimonials {
