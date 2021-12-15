@@ -507,6 +507,14 @@ height: auto;
 .first .first-col p {
     text-align: center;
     font-size: 1.5rem;
+    line-height: 1.6;
+}
+.first .first-col p a  {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    /* text-decoration:black; */
+    color: black;
 }
 .first .first-col-2 {
     margin: 4rem 0;
@@ -515,3 +523,26 @@ height: auto;
 .first .first-col-2 p{
     font-size: 1.5rem;
 } 
+/* ---footer ---section */
+footer {
+    width:100%;
+ 
+}
+footer .footer-row {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 3rem;
+    border-bottom: 1px  solid rgba(0,0,0,0.3);
+    justify-content: space-around;
+}
+footer .footer-row .footer-col h3 {
+
+    font-size: 2.2rem;
+}
+footer .footer-row .footer-col p {
+    margin: 3rem 0;
+    font-size: 1.4rem;
+}
+footer .footer-row .footer-col  {
+width: 18%;
+}
