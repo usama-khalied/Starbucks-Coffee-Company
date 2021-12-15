@@ -489,3 +489,29 @@ flex-direction: column;
 height: auto;
     }
 }
+/* ---first-footer */
+.first {
+      padding: 5rem 0;
+      margin: 6rem 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px  solid rgba(0,0,0,0.3);
+
+}
+.first .first-col {
+    width: 60%;
+}
+.first .first-col p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.first .first-col-2 {
+    margin: 4rem 0;
+
+} 
+.first .first-col-2 p{
+    font-size: 1.5rem;
+} 
